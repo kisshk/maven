@@ -125,10 +125,12 @@
       <scope>test</scope>
     </dependency>
 
+    <!-- Replace junit-dep with junit -->
     <dependency>
       <groupId>junit</groupId>
-      <artifactId>junit-dep</artifactId>
+      <artifactId>junit</artifactId>
       <version>4.13.2</version>
+      <scope>test</scope>
     </dependency>
 
     <dependency>
@@ -138,12 +140,12 @@
       <scope>provided</scope>
     </dependency>
 
-    <!-- Add Hamcrest dependencies -->
     <dependency>
       <groupId>org.hamcrest</groupId>
       <artifactId>hamcrest-core</artifactId>
       <version>2.2</version>
     </dependency>
+
     <dependency>
       <groupId>org.hamcrest</groupId>
       <artifactId>hamcrest-library</artifactId>
@@ -151,7 +153,6 @@
     </dependency>
   </dependencies>
 </dependencyManagement>
-
 
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
