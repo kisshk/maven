@@ -25,9 +25,8 @@
 
   <distributionManagement>
     <site>
-      <id>site-server</id>
-      <name>Test Project Site</name>
-      <url>file:///tmp/maven-project-site</url>
+      <id>demo-repo</id>
+      <url>http://98.82.14.129:8080/repository/demo-repo/</url>
     </site>
   </distributionManagement>
 
